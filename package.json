@@ -1,7 +1,7 @@
 {
-  "name": "travel-agency",
+  "name": "gardoon-savar",
   "version": "1.0.0",
-  "description": "Travel agency App is a react app which is bundled by [WebPack](https://webpack.js.org)",
+  "description": "Gardoon Savar App is a react app which is bundled by [WebPack](https://webpack.js.org)",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
@@ -11,20 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mim24sd/travel-agency.git"
+    "url": "git+https://github.com/mim24sd/gardoon-savar/main-front.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mim24sd/travel-agency/issues"
+    "url": "https://github.com/mim24sd/gardoon-savar/main-front/issues"
   },
-  "homepage": "https://github.com/mim24sd/travel-agency#readme",
+  "homepage": "https://github.com/mim24sd/gardoon-savar/main-front#readme",
   "devDependencies": {
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -32,8 +33,12 @@
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "node-sass": "^9.0.0",
     "prettier": "^2.7.1",
-    "webpack": "^5.83.1",
+    "sass-loader": "^13.3.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",
     "webpack-dev-server": "^4.15.0"
   },
