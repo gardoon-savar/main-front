@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/header/navbar";
 import HeaderImageBox from "./components/header/image-box";
-import NavBar from "./components/fast-search/main";
+import NavBar from "./components/fastSearch/main";
 
 const App = () => {
   return (

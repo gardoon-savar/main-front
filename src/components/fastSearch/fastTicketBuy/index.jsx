@@ -2,7 +2,7 @@ import React from "react";
 
 import Selection from "../../general/selection";
 import Button from "../../general/button";
-import SourceDestination from "../source-destination";
+import SourceDestination from "../sourceDestination";
 
 import styles from "./styles/index.module.scss";
 

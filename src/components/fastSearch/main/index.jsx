@@ -1,7 +1,7 @@
 import React from "react";
 
-import InnerNavbar from "../inner-navbar";
-import OuterNavBar from "../outer-navbar";
+import InnerNavbar from "../innerNavbar";
+import OuterNavBar from "../outerNavbar";
 import FastTicketBuy from "../fastTicketBuy";
 
 import styles from "./styles/index.module.scss";
