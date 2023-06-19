@@ -1,0 +1,24 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.tab {
+  width: 150px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--size-sm) var(--size-sm) 0 0;
+  cursor: pointer;
+
+  span {
+    font-size: var(--size-md);
+  }
+}
+
+.inCountryLable {
+  background-color: var(--backgroundSecondaryColor);
+  box-shadow: var(--boxShadowSecondaryColor);
+}
+
+.outCountryLable {
+  background-color: var(--quaternaryColor);
+  box-shadow: var(--boxShadowTertiaryColor);
+}

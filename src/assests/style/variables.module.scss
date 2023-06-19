@@ -1,15 +1,23 @@
 :root {
   /* colors */
-  --primaryColor: #383366;
-  --secondaryColor: #9763f6;
+  --primaryColor: rgb(56, 51, 102);
+  --secondaryColor: rgb(224, 140, 255);
+  --tertiaryColor: rgb(236, 205, 247);
+  --quaternaryColor: rgb(208, 208, 208);
+  --quinaryColor: rgb(245, 245, 148);
 
-  --backgroundPrimaryColor: #ffffff;
-  --backgroundsecondaryColor: #f6f8fa;
-  //#384357
-  //#a0aec0;
+  --primaryTextColor: rgb(75, 82, 89);
+
+  --backgroundPrimaryColor: rgb(237, 237, 237);
+  --backgroundSecondaryColor: rgb(246, 245, 245);
+
+  --boxShadowPrimaryColor: -6px 9px 24px -3px rgba(0, 0, 0, 0.1);
+  --boxShadowSecondaryColor: 7px -6px 15px -7px rgba(0, 0, 0, 0.1);
+  --boxShadowTertiaryColor: -7px -6px 15px -7px rgba(0, 0, 0, 0.1);
 
   /* sizes */
   --size-unit: 1em;
+  --size-xs: calc(0.25 * var(--size-unit));
   --size-sm: calc(0.5 * var(--size-unit));
   --size-md: calc(1 * var(--size-unit));
   --size-lg: calc(1.5 * var(--size-unit));
@@ -28,4 +36,8 @@
   --space-xl: calc(2 * var(--space-unit));
   --space-xxl: calc(2.5 * var(--space-unit));
   --space-xxxl: calc(3 * var(--space-unit));
+
+  /* grid spacing unit*/
+  --grid-unit: 1fr;
+  --grid-md: calc(1 * var(--grid-unit));
 }

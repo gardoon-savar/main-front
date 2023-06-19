@@ -1,0 +1,22 @@
+@import "../../../../assests/style/variables.module.scss";
+
+select {
+  border: 1px solid var(--tertiaryColor);
+  border-radius: 30px;
+  padding: 0.5em 1em 0.5em 0.5em;
+  cursor: pointer;
+  margin-left: -2em;
+  width: 160px;
+}
+
+.selectIcon {
+  width: 15px;
+  height: 15px;
+  margin-bottom: -0.25em;
+  cursor: pointer;
+  // position: fixed;
+}
+
+.selection {
+  padding-left: 3em;
+}

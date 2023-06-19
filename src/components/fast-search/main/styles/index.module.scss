@@ -1,0 +1,14 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.placingTheBox {
+  display: grid;
+  place-items: center;
+  padding: var(--space-xxxl) 0;
+}
+
+.main {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: var(--grid-md);
+  grid-template-rows: var(--grid-md) auto;
+}

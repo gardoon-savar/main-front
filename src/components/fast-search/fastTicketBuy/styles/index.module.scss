@@ -1,0 +1,14 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  background-color: var(--backgroundSecondaryColor);
+  box-shadow: var(--boxShadowPrimaryColor);
+  border-radius: var(--size-sm);
+  margin-top: var(--space-md);
+  padding: var(--space-xl);
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
