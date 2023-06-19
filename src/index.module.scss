@@ -1,2 +1,8 @@
 @import "./assests/style/reset.module.scss";
 @import "./assests/style/variables.module.scss";
+
+body {
+  background-color: var(--backgroundPrimaryColor);
+  color: var(--dark);
+  direction: rtl;
+}

@@ -1,0 +1,12 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  background-color: var(--backgroundSecondaryColor);
+  border-radius: var(--size-sm) 0 var(--size-sm) var(--size-sm);
+  box-shadow: var(--boxShadowPrimaryColor);
+}
+
+.innerNavbar {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,13 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0;
+}
+
+.changeIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 1em;
+}

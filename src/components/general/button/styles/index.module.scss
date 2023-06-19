@@ -1,0 +1,10 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  width: 200px;
+  height: 50px;
+  background-color: var(--secondaryColor);
+  display: grid;
+  place-content: center;
+  border-radius: var(--size-sm);
+}
