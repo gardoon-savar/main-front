@@ -29,6 +29,17 @@ module.exports = {
         test: /\.(png|jp(e*)g|svg|gif)$/,
         use: ["file-loader"],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf)$/i,
+        use: [
+          {
+            loader: "url-loader",
+            options: {
+              limit: 8192,
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

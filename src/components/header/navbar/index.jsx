@@ -1,13 +1,17 @@
 import React from "react";
 
+import icons from "../../../assests/icons/icons";
+import Button from "../../general/button";
+
 import styles from "./styles/index.module.scss";
 
-const Header = () => {
+const Navbar = () => {
   return (
     <header className={styles.main}>
-      <h1>گردون سوار!</h1>
+      <span>گردون سوار</span>
+      <Button title="پیگیری بلیط" icon={icons.ticket} />
     </header>
   );
 };
 
-export default Header;
+export default Navbar;

@@ -1,0 +1,15 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: var(--size-lg);
+  box-shadow: rgba(95, 95, 119, 0.25) 0px 50px 100px -20px,
+    rgba(83, 83, 83, 0.3) 0px 30px 60px -30px;
+  margin-top: var(--space-md);
+  padding: var(--space-xl);
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}

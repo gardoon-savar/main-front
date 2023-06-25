@@ -1,9 +1,10 @@
 @import "../../../../assests/style/variables.module.scss";
 
 .main {
-  background-color: var(--primaryColor);
-  color: var(--backgroundPrimaryColor);
-  padding: var(--space-xl);
-  direction: rtl;
-  height: 400px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: var(--space-xxxl);
 }
