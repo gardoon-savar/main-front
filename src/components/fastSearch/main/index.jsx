@@ -6,7 +6,7 @@ import FastTicketBuy from "../fastTicketBuy";
 
 import styles from "./styles/index.module.scss";
 
-const NavBar = () => {
+const FastSearch = () => {
   return (
     <div className={styles.placingTheBox}>
       <div className={styles.main}>
@@ -18,4 +18,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default FastSearch;

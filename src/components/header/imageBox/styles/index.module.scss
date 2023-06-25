@@ -1,0 +1,26 @@
+@import "../../../../assests/style/variables.module.scss";
+
+.main {
+  background: linear-gradient(var(--primaryColor), var(--secondaryColor));
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  border-radius: var(--size-lg);
+  // padding-inline: var(--space-xxxl);
+}
+
+.textBox {
+  position: absolute;
+  text-align: center;
+  margin-top: var(--space-xxxxl);
+
+  span {
+    margin-top: var(--space-lg);
+  }
+
+  h1 {
+    font-size: 100px;
+  }
+}

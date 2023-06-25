@@ -4,6 +4,8 @@ import Selection from "../../general/selection";
 import Button from "../../general/button";
 import SourceDestination from "../sourceDestination";
 
+import icons from "../../../assests/icons/icons.js";
+
 import styles from "./styles/index.module.scss";
 
 const FastTicketBuy = () => {
@@ -12,7 +14,7 @@ const FastTicketBuy = () => {
       <Selection />
       <SourceDestination />
       <div className={styles.buttonBox}>
-        <Button title="خرید" />
+        <Button title="خرید" icon={icons.buy} />
       </div>
     </div>
   );

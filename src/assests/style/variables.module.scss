@@ -1,14 +1,16 @@
 :root {
   /* colors */
-  --primaryColor: rgb(56, 51, 102);
-  --secondaryColor: rgb(224, 140, 255);
+  --primaryColor: #f7d4f5;
+  --secondaryColor: #b3c1e9;
+  // thistle ;
   --tertiaryColor: rgb(236, 205, 247);
   --quaternaryColor: rgb(208, 208, 208);
   --quinaryColor: rgb(245, 245, 148);
+  --senaryColor: rgb(56, 39, 104);
 
   --primaryTextColor: rgb(75, 82, 89);
 
-  --backgroundPrimaryColor: rgb(237, 237, 237);
+  --backgroundPrimaryColor: #ffffff;
   --backgroundSecondaryColor: rgb(246, 245, 245);
 
   --boxShadowPrimaryColor: -6px 9px 24px -3px rgba(0, 0, 0, 0.1);
@@ -36,6 +38,7 @@
   --space-xl: calc(2 * var(--space-unit));
   --space-xxl: calc(2.5 * var(--space-unit));
   --space-xxxl: calc(3 * var(--space-unit));
+  --space-xxxxl: calc(6 * var(--space-unit));
 
   /* grid spacing unit*/
   --grid-unit: 1fr;
