@@ -3,8 +3,19 @@
 .main {
   height: 100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-inline: var(--space-xxxl);
+  padding: var(--space-xl) var(--space-xxxl);
+}
+
+@media screen and (min-width: 550px) {
+  .main {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--space-xxxl);
+  }
 }

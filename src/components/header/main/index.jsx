@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={styles.main}>
       <Navbar />
-      <ImageBox />
+      {/* <ImageBox /> */}
     </div>
   );
 };

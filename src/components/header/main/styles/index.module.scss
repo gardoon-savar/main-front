@@ -1,5 +1,17 @@
 @import "../../../../assets/style/variables.module.scss";
 
 .main {
-  padding-inline: var(--space-xxxxl);
+  padding-inline: 0;
+}
+
+@media screen and (min-width: 550px) and (max-width: 1500px) {
+  .main {
+    padding-inline: var(--space-xl);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .main {
+    padding-inline: var(--space-xxxxl);
+  }
 }
