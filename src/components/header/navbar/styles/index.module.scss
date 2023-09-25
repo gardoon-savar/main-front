@@ -9,6 +9,10 @@
   padding: var(--space-xl) var(--space-xxxl);
 }
 
+.ticketBox {
+  display: none;
+}
+
 @media screen and (min-width: 550px) {
   .main {
     height: 100px;
@@ -17,5 +21,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 var(--space-xxxl);
+  }
+
+  .ticketBox {
+    display: block;
   }
 }
