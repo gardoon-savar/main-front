@@ -9,11 +9,11 @@ const InnerNavbar = () => {
   return (
     <div className={styles.main}>
       <ul className={styles.innerNavbar}>
-        <TicketIcon isActive={true} title="هواپیما" icon={icons.airplane} />
+        <TicketIcon isActive={false} title="هواپیما" icon={icons.lightColorAirplain} />
         <TicketIcon isActive={false} title="قطار" icon={icons.lightColorTrain} />
         <TicketIcon isActive={false} title="اتوبوس" icon={icons.lightColorBus} />
-        <TicketIcon isActive={false} title="تور" icon={icons.lightColorTour} />
-        <TicketIcon isActive={false} title="هتل" icon={icons.lightColorHotel} />
+        <TicketIcon isActive={true} title="تور" icon={icons.tour} />
+        <TicketIcon isActive={true} title="هتل" icon={icons.hotel} />
       </ul>
     </div>
   );

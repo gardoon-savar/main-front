@@ -8,7 +8,7 @@ import styles from "./styles/index.module.scss";
 const Navbar = () => {
   return (
     <header className={styles.main}>
-      <Button title="پیگیری بلیط" icon={icons.ticket} />
+      <Button title="پیگیری خرید" icon={icons.ticket} />
       <span>گردون سوار</span>
     </header>
   );
