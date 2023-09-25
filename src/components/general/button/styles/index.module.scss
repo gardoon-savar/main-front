@@ -7,7 +7,7 @@
   color: var(--backgroundPrimaryColor);
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border-radius: var(--size-sm);
   cursor: pointer;
@@ -15,5 +15,4 @@
 
 .icon {
   width: 25px;
-  margin-left: 15px;
 }

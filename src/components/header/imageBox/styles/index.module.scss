@@ -6,7 +6,7 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  height: 700px;
+  height: fit-content;
   border-radius: var(--size-lg);
   padding: var(--space-xxxl) 0;
 }
@@ -14,13 +14,30 @@
 .textBox {
   position: absolute;
   text-align: center;
-  margin-top: var(--space-xxxxl);
-
-  span {
-    margin-top: var(--space-lg);
-  }
+  margin-top: var(--space-md);
 
   h1 {
-    font-size: 100px;
+    font-size: 50px;
+    margin-top: 0;
+  }
+}
+
+.image {
+  width: 60vw;
+  height: fit-content;
+}
+
+@media screen and (min-width: 1500px) {
+  .textBox {
+    margin-top: var(--space-xxxxl);
+
+    h1 {
+      font-size: 65px;
+      margin-top: var(--space-xxxl);
+    }
+  }
+
+  .image {
+    width: 55vw;
   }
 }

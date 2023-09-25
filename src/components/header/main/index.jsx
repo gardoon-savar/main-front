@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <div className={styles.main}>
       <Navbar />
-      {/* <ImageBox /> */}
+      <div className={styles.imageBox}>
+        <ImageBox />
+      </div>
     </div>
   );
 };

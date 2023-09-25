@@ -4,14 +4,26 @@
   padding-inline: 0;
 }
 
+.imageBox {
+  display: none;
+}
+
 @media screen and (min-width: 550px) and (max-width: 1500px) {
   .main {
     padding-inline: var(--space-xl);
+  }
+
+  .imageBox {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1500px) {
   .main {
     padding-inline: var(--space-xxxxl);
+  }
+
+  .imageBox {
+    display: block;
   }
 }

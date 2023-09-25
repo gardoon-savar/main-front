@@ -12,7 +12,7 @@ const FastSearch = () => {
       <div className={styles.main}>
         <OuterNavBar />
         <InnerNavbar />
-        <FastTicketBuy />
+        {/* <FastTicketBuy /> */}
       </div>
     </div>
   );
