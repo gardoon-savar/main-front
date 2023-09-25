@@ -4,7 +4,7 @@ import Selection from "../../general/selection";
 import Button from "../../general/button";
 import SourceDestination from "../sourceDestination";
 
-import icons from "../../../assests/icons/icons.js";
+import icons from "../../../assets/icons/icons.js";
 
 import styles from "./styles/index.module.scss";
 

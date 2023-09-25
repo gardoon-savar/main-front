@@ -1,6 +1,6 @@
 import React from "react";
 
-import icons from "../../../assests/icons/icons";
+import icons from "../../../assets/icons/icons";
 import Button from "../../general/button";
 
 import styles from "./styles/index.module.scss";

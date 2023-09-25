@@ -6,8 +6,8 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <FastSearch />
-      <AboutMe /> */}
+      <FastSearch />
+      <AboutMe />
     </div>
   );
 }
