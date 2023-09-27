@@ -7,7 +7,7 @@ function App() {
     <div>
       <Header />
       <FastSearch />
-      {/* <AboutMe /> */}
+      <AboutMe />
     </div>
   );
 }

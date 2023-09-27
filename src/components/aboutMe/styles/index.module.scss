@@ -1,16 +1,17 @@
 @import "/src/assets/style/variables.module.scss";
 
 .main {
-  position: relative;
   margin-top: 25em;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 0;
 }
 
 .header {
-  width: 300px;
-  position: absolute;
-  text-align: end;
   font-size: 2em;
-  margin-top: var(--space-xl);
+  text-align: end;
+  padding: var(--space-xl) var(--space-xxxl) 0 0;
+  margin-bottom: -20px;
 }
 
 .figure {
@@ -18,46 +19,141 @@
   justify-content: space-evenly;
 
   .image {
-    width: 700px;
-    height: auto;
+    width: 40vw;
+    height: 40vw;
+    margin-top: 0;
+    display: none;
   }
 
   .caption {
-    width: 700px;
-    height: 500px;
+    width: 70vw;
+    height: auto;
     flex-direction: column;
     justify-items: center;
     align-self: center;
   }
 
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-
-    .item {
-      width: 120px;
-      height: 40px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      cursor: pointer;
-
-      .title {
-        padding-top: var(--space-sm);
-      }
-
-      .border {
-        background-color: var(--senaryColor);
-        width: auto;
-        height: 5px;
-        border-radius: var(--size-md);
-      }
-    }
-  }
-
   .text {
-    padding: var(--space-xxxxl) 0;
+    padding: var(--space-xxxl) 0;
+    direction: rtl;
   }
 }
+
+.titleButton {
+  background-color: var(--backgroundPrimaryColor);
+
+  :hover {
+    background-color: var(--backgroundPrimaryColor);
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .header {
+    margin-bottom: -150px;
+    padding: var(--space-xl) var(--space-xxxxxl) 0 0;
+  }
+  .figure {
+    .image {
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px) {
+  .header {
+    margin-bottom: -80px;
+    padding: var(--space-xl) var(--space-xxxxl) 0 0;
+  }
+  .figure {
+    .image {
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 890px) {
+  .header {
+    margin-bottom: -40px;
+    padding: var(--space-xl) var(--space-xxxxl) 0 0;
+  }
+  .figure {
+    .image {
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 890px) and (min-width: 840px) {
+  .header {
+    margin-bottom: -40px;
+    padding: var(--space-xl) var(--space-xxxl) 0 0;
+  }
+  .figure {
+    .image {
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) and (min-width: 715px) {
+  .header {
+    margin-bottom: -20px;
+    padding: var(--space-xl) var(--space-xxxl) 0 0;
+  }
+
+  .figure {
+    .image {
+      margin-top: 50px;
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+@media screen and (max-width: 715px) and (min-width: 640px) {
+  .main {
+    padding-inline: 20px;
+  }
+
+  .header {
+    margin-bottom: -20px;
+    padding: var(--space-xl) var(--space-xxl) 0 0;
+  }
+
+  .figure {
+    .image {
+      width: 50vw;
+      height: 50vw;
+      margin-top: 50px;
+      display: block;
+    }
+    .caption {
+      width: 40vw;
+    }
+  }
+}
+
+// @media screen and (min-width: 550px) and (max-width: 670px) {
+//   .main {
+//     width: 60%;
+//   }
+
+//   .placingTheBox {
+//     align-content: center;
+//     justify-content: center;
+//   }
+// }
